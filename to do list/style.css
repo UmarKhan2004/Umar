@@ -1,0 +1,79 @@
+body{
+background-color: rgba(19, 115, 224, 0.685);
+color: white;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(15, 112, 107, 0.568);
+    padding: 10px 20px;
+}
+#darkModeToggle{
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+border-radius: 5px;
+    padding: 5px 10px;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+#darkModeToggle:hover{
+    background-color: rgba(255, 255, 255, 0);
+}
+#darkModeToggle:active{
+    background-color: rgba(255, 255, 255, 0.034);
+}
+.container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+#taskInput{
+    height:30px;
+    font-size:15px;
+    width:50%;
+    border-radius: 5px;
+}
+#taskInput:focus{
+    outline: none;
+    border: 2px solid rgba(0, 0, 0, 0.568);
+}
+#AddTask{
+    height: 35px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.removeTask{
+        height: 35px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.completeTask{
+         height: 35px;
+    width: 113px;
+    font-size: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.568);
+}
+.container ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}

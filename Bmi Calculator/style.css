@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar ul {
+    display: flex;
+    justify-content: start;
+    gap: 150px;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    height: 35px;
+    width: 100%;
+    background-color: #261961cc;
+    border-radius:5px ;
+
+}
+.navbar ul li {
+    list-style: none;
+    color: white;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+body {
+    background-color: #261961cc;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.BMI {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap:20px;
+}
+.BMI input{
+    padding:10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+}
+.BMI button {
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+#userInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:15px;
+}
